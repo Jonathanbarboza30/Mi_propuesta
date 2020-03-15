@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+body {
+  font-size:100%;
+  font-family: Arial,'Lucida Grande',Verdana,sans-serif;
+  text-align:center;
+  background:#000 url("../images/background.gif")repeat-x top left;
+}
+
+#contenedor {
+  width:1000px;
+  background:#FFF;
+  margin:0 auto 0 auto;
+}
+
+#cuerpo {
+  padding:0 8px 0 8px;
+}
+  
+#cabeza {
+  width:984px;
+  background:#FFF;
+  margin:0 auto 0 auto;
+}
+
+.cls {
+clear:both;
+}
+
+#logo-block {
+  height:126px;
+  width:601px;
+  float:left;
+  text-align:left;
+}
+
+#logo {
+  padding-top:44px;
+  line-height:40px;
+  font:48px Arial, "Times New Roman", Times;
+  padding-left:27px;
+  color: #8C1214;
+}
+
+#slogan {
+  font:16px Arial, "Times New Roman", Times;
+  color:#5A5A5A;
+  padding-left:38px;
+}
+
+.logobcolor {
+color:#00068B;
+}
+
+#superior {
+  width:382px;
+  float:right;
+}
+
+#login_top {
+  background:#000 url("../images/login.gif")no-repeat top left;
+  height:35px;
+  text-align:left;
+  padding-left:50px;
+ }
+
+ #login_top p {
+  font:14px Arial, "Times New Roman", Times;
+  color:#E9E9E9;
+  padding-top:10px;
+  float:left;
+ }
+ 
+#login_top input {
+  margin:6px 0;
+  padding-right:8px;
+  float:left;
+}
+
+.topinputstyle{
+  border:0px;
+  background:#D1D1D1;
+  width:77px;
+  height:17px;
+  color:#000;
+  font-size:14px;
+  padding-top:5px;
+  padding-bottom:2px;
+  padding-left:10px;
+}
+
+.loginbutton{
+  background:transparent url("../images/loginbutton.gif")no-repeat top left;
+  border:none;
+  width:22px;
+  height:22px;
+  cursor:pointer;
+  padding-left:10px;
+  margin-top:2px;
+}
+
+#busqueda {
+  clear:left;
+  width:259px;
+  margin-left:43px;
+  margin-top:30px;
+}
+
+#busqueda input.box {
+  color: #000;
+  font-size: 14px;
+  width: 160px;
+  height: 17px;
+  background: #D2CDCD;
+  border:1px solid #58D5D7;
+  margin-right: 5px;
+}
+
+#busqueda button.btn {
+  width: 80px;
+  height: 21px;
+  cursor: pointer;
+  color:#fff;
+  background: #fbc900 url("../images/search.gif")no-repeat top left;
+}
+
+#top-nav-bg  {
+  background:transparent url("../images/topnavbar.gif")no-repeat top left;
+  height:38px;
+  width:984px;
+}
+
+	
+#top-nav {
+  height:38px;
+  width:984px;
+}
+  
+#top-nav ul {
+  list-style:none;
+  padding-left:20px;
+}
+  
+#top-nav ul a {
+  background-image: url("../images/topnavdivider.gif");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 18px;
+  padding-left: 16px;
+  display: block;
+  line-height: 38px;
+  text-decoration: none;
+  font-family: Arial, "Times New Roman", Times, serif;
+  font-size: 17px;
+  color: #FFF;
+}
+	
+#top-nav ul a:hover {
+  color: #FDA041;
+  text-decoration: underline;
+}
+ 
+  #top-nav li {
+    float:left;
+	}
+
+#portada {
+  background: url("../images/portadaoriginal.png")top left;
+  width:984px;
+  height:180px;
+  text-shadow:1px 1px 1px #000;
+  margin-top:9px;
+}
+
+#slogan1 {
+  font:44px Georgia, Arial, "Times New Roman", Times;
+  padding:25px 0px 0px 120px;
+  color:#FFF;
+  text-align:left;
+  letter-spacing:-2px;
+}
+#slogan2 {
+  font:30px Georgia, Arial, "Times New Roman", Times;
+  padding:0px 0px 0px 367px;
+  color:#FFF;
+  text-align:left;
+  letter-spacing:-2px;
+}
+
+#pagina {
+  width:1000px;
+  min-height:206px;
+  margin:0 auto 0 auto;
+  background:#FFF;
+  padding-top:8px;
+}
+
+#contenido {
+  padding:3px 8px 0px 8px;
+}
+
+#content {
+  float:left;
+  width:691px;
+  background:#FFF url("../images/page-background.jpg")no-repeat top left;
+}
+
+#contenido {
+  padding:15px;
+}
+
+#content h1,h2,h3,h4,h5 {
+  padding:5px 5px 10px 5px;
+  font:32px Arial, "Times New Roman", Times;
+  color:#494949;
+  text-align:left;
+}
+
+#content p {
+  padding:0px 6px 10px 5px;
+  font:15px Arial, "Times New Roman", Times;
+  text-align:justify;
+}
+
+#content a {
+  text-decoration: underline;
+  color:#0B3E70;
+}
+	
+#content a:hover {
+  text-decoration:none;
+  text-shadow:0px 0px 4px #FDA041;
+}
+
+.relleno {
+  color:#494949;
+}
+.blue {
+  color: #0616E6;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+#right-nav {
+  float:right;
+  width:283px;
+  text-align:left;
+}
+
+.right-nav-back {
+  background:#FFF url("../images/right-menu-bg.gif")repeat-y top left;
+  width:282px;
+overflow: scroll;
+}
+
+.right-nav-top {
+  background:#FFF url("../images/right-menu-top.gif")no-repeat top left;
+  width:283px;
+  height:34px;  
+}
+.right-nav-top p {
+  color:#FFF;
+  font:14px Arial, "Times New Roman", Times;
+  font-weight:bold;
+  padding:13px 0px 0px 10px;
+}
+.right-nav-bottom {
+  background:#FFF url("../images/right-menu-bottom.gif")no-repeat top left;
+  width:283px;
+  height:8px;
+  padding-bottom:1px;
+}
+  
+#right-nav ul
+{
+  list-style:none;
+  text-align:left;
+  padding-top:1px;
+}
+  
+#right-nav li a
+{
+  background-image: url("../images/right-menu-div.gif");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display:block;
+  padding:13px 0px 18px 15px;
+  line-height:15px;
+  text-decoration: none;
+  color: #494949;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size:19px;
+}
+  
+#right-nav li a:hover
+{
+  color:#C46A00;
+  text-decoration: underline;
+}
+  
+.right-nav-divider {
+  width:226px;
+  height:1px;
+  padding-bottom:33px;
+}
+
+#subscribe {
+  text-align:right;
+  padding-right:30px;
+}
+
+#subscribe form {
+  margin-left:11px;
+}
+
+#subscribe input {
+  margin:6px 0;
+}
+
+.inputstyle {
+  background:#FFF;
+  border:1px solid #ADADAD;
+  width:250px;
+  height:22px;
+  color:#494949;
+  font-size:14px;
+  padding-top:5px;
+  padding-left:10px;
+}
+
+.button {
+  background:transparent url("../images/button.jpg")no-repeat top left;
+  vertical-align:middle;
+  padding-bottom:5px;
+  border:none;
+  width:131px;
+  height:31px;
+  color:#FFF;
+  font:bold 13px Arial, Georgia, "Times New Roman", Times;
+  cursor:pointer;
+  margin-left:5px;
+}
+
+#footer {
+  clear:both;
+  background:#000 url("../images/footer.gif")repeat-x top left;
+  width:1000px;
+  height:183px;
+  margin:0 auto 0 auto;
+  text-align:left;
+}
+
+#pie {
+  width:984px;
+  padding:50px 0px 0px 0px;
+  text-align:center;
+}
+
+#footer p {
+  font:14px Arial, "Times New Roman", Times;
+  color:#929292;
+}
+
+#footer a {
+  color:#FFF;
+  text-decoration:underline;
+}
+
+#footer a:hover {
+  color:#C46A00;
+  text-decoration:none;
+}
